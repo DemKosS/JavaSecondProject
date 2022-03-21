@@ -1,12 +1,11 @@
 public class account {
     public static void main(String[] args) {
-        int score =500;
-        int refill =2500;
+        int score = 500;
+        int refill = 2500;
         int bonus;
         if (refill > 1000) {
             bonus = refill / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
         int balance = score + refill + bonus;
